@@ -77,7 +77,7 @@ app.post('/reviews', async (req, res) => {
             //ngrok link from harsh server
             var respons;
             try{
-                  respons = await axios.post("http://rasengan343.pythonanywhere.com/",{
+                  respons = await axios.post("https://6c78-118-185-152-162.ngrok-free.app",{
                     lat : `${lat}`,
                     lng : `${lng}`,
                     schoolName: school_name
